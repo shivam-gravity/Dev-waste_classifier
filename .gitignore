@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# dataset images (keep folder structure via .gitkeep, ignore contents)
+data/**/*.jpg
+data/**/*.jpeg
+data/**/*.png
+data/**/*.bmp
+
+# trained models / logs
+models/*.h5
+models/*.keras
+outputs/*.png
+outputs/*.csv
+logs/
